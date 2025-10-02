@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RAJCPSC Inter Cantt Jersey</title>
+    <!-- Premium fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-row">
+        <div class="brand">
+          <h1>RAJCPSC Inter Cantt Jersey</h1>
+          <p>Order official merch for the Inter Cantt tournament.</p>
+        </div>
+        <div class="theme-controls" style="gap:8px; display:flex; align-items:center;">
+          <a id="headerOrderBtn" class="btn" target="_blank">Order Now</a>
+          <button id="themeToggle" class="btn" aria-label="Toggle theme">Switch to Dark</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="products" id="products"></section>
+    </main>
+
+    <!-- Details Modal -->
+    <div id="detailsModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-close="modal"></div>
+      <div class="modal-content" role="document">
+        <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+        <div class="modal-header">
+          <h2 id="modalTitle">Product Details</h2>
+        </div>
+        <div class="modal-body">
+          <div class="modal-gallery" id="modalGallery"></div>
+          <div class="modal-info">
+            <ul class="info-list">
+              <li><strong>Size:</strong> <span id="modalSize"></span></li>
+              <li><strong>Fabric:</strong> <span id="modalFabric"></span></li>
+              <li><strong>Price:</strong> <span id="modalPrice"></span></li>
+              <li><strong>Contact:</strong> <span id="modalContact"></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Lightbox Viewer -->
+    <div id="imageViewer" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="lightbox-backdrop" data-close="lightbox"></div>
+      <div class="lightbox-content" role="document">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button>
+        <div class="lightbox-toolbar">
+          <button class="control" id="zoomOut" aria-label="Zoom out">−</button>
+          <button class="control" id="zoomIn" aria-label="Zoom in">+</button>
+          <button class="control" id="zoomReset" aria-label="Reset zoom">Reset</button>
+        </div>
+        <div class="lightbox-stage" id="lightboxStage">
+          <img id="lightboxImage" alt="Preview" />
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>RAJCPSC Inter Cantt Jersey</h4>
+          <p>Official merchandise for the Inter Cantt tournament.</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-list">
+            <li><a href="tel:+8801816665948">Phone: 01816-665948</a></li>
+            <li><a href="https://wa.me/8801816665948" target="_blank">WhatsApp: 01816-665948</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Links</h4>
+          <ul class="footer-list">
+            <li><a href="#products">Products</a></li>
+            <li><a id="airtableLink" href="#" target="_blank">Order Form</a></li>
+            <li>
+              Developed by 
+              <a href="https://nadimshahriar.arionys.com" target="_blank" rel="noopener">MD NADIM SHAHRIAR APURBO</a>
+            </li>
+            <li>
+              Sponsored by 
+              <a href="https://arionys.com" target="_blank" rel="noopener">Arionys Tech Ltd.</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <small>© 2025 RAJCPSC Inter Cantt Jersey. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
