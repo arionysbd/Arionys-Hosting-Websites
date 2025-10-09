@@ -4,10 +4,10 @@ import { resumeFileName } from '@/lib/utils/config';
 export const heroSection: HeroSectionType = {
   subtitle: 'Hi, my name is',
   title: 'Mahdi Bin Ferdaus.',
-  tagline: 'I build at the intersection of hardware and thought.',
+  tagline: 'Robotics enthusiast focused on automation and electronics.',
   description:
-    "If a wire can dream, does it dream in copper or in light? When failure knocks, is it a wall… or the blueprint for a door? I live somewhere between the pulse of machines and the silence that teaches them.",
-  specialText: 'Where machines learn and the human hand still leaves its mark',
+    'I design and build robots, IoT systems, and safety devices—turning ideas into reliable hardware backed by clean code.',
+  specialText: 'Conrad Innovator — NASA Conrad Challenge Global Finalist (2024)',
   cta: {
     title: 'see my resume',
     url: `/${resumeFileName}`,

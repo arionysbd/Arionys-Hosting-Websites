@@ -2,66 +2,51 @@ import { FeaturedProjectsSectionType } from '@/lib/types/sections';
 import { getId } from '@/lib/utils/helper';
 
 const featuredProjectsSection: FeaturedProjectsSectionType = {
-  title: "projects i've worked on",
+  title: 'featured robotics projects',
   projects: [
     {
       id: getId(),
-      name: 'GetLifeGuard',
-      description: 'An E-Commerce platform for Self-Defense Keychain.',
-      tasks:
-        "As a freelancer, I understood the client's requirements and executed a plan to develop and design an e-commerce platform, including the frontend UI, backend setup with database, APIs, and integration with payment platforms.",
-      url: 'https://life-kit.vercel.app/',
-      img: 'https://life-kit.vercel.app/images/og.png',
-      tags: [
-        'NextJs 14',
-        'TypeScript',
-        'TailwindCSS',
-        'ShadCN',
-        'Prisma',
-        'Stripe',
-      ],
-    },
-    {
-      id: getId(),
-      name: 'Valuemetrix',
-      description: 'An AI Powered Investment Platform.',
-      tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-      url: 'https://www.valuemetrix.io/',
-      img: 'https://www.valuemetrix.io/images/og.png',
-      tags: ['AI/ML', 'NextJs', 'TypeScript', 'TailwindCSS', 'Prisma'],
-    },
-    {
-      id: getId(),
-      name: 'Velvi Matrimony',
+      name: 'Gas Leakage & Fire Safety Device',
       description:
-        'A platform that redefines the way individuals find their life partners.',
+        'An IoT safety system that detects gas leakage and abnormal temperature, triggers alarms, and provides real-time monitoring.',
       tasks:
-        'As a freelancer, I developed this project by planning, communicating with the client, gathering feedback, implementing UI & pages, and integrating real-time data fetching with filtering functionality.',
-      url: 'https://velvi.vercel.app/',
-      img: 'https://i.postimg.cc/tRS4GvzJ/Screenshot-2024-02-27-at-5-48-49-PM.png',
-      tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'APIs'],
+        'Designed sensor circuitry, implemented microcontroller logic, built alarm and notification flow, validated thresholds in real scenarios',
+      url: '#',
+      img: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b',
+      tags: ['IoT', 'Sensors', 'Arduino', 'Safety'],
     },
-    /*   {
-      id: getId(),
-      name: 'Integra',
-      description: 'An AI-Powered Leads Generation Platform.',
-      tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-      url: 'https://www.integraleads.xyz/',
-      img: 'https://user-images.githubusercontent.com/68834718/279476369-2f69466a-71db-4da0-9afd-04f8f0efb621.jpeg',
-      tags: ['AI/ML', 'NextJs', 'TypeScript', 'TailwindCSS', 'Express'],
-    }, */
-
     {
       id: getId(),
-      name: 'Drafton',
-      description: 'The AI-powered platform that simplifies proposal creation.',
+      name: 'SCORPO — Multipurpose Robot',
+      description:
+        'A multi-functional robot built for navigation, object handling, and task automation with robust mechanical design.',
       tasks:
-        'I designed and developed the landing page and implemented the dashboard by creating a user interface and integrating APIs.',
-      url: 'https://www.drafton.io/',
-      img: 'https://i.postimg.cc/4N6dsGcm/Screenshot-2024-06-17-at-11-05-22-PM.png',
-      tags: ['Open AI', 'NextJs', 'TypeScript', 'TailwindCSS', 'Prisma'],
+        'Designed chassis and mechanisms, wrote C/C++ control code, integrated motor drivers and sensor suite',
+      url: '#',
+      img: 'https://images.unsplash.com/photo-1581092334700-7d89c0e8fa61',
+      tags: ['Robotics', 'C/C++', 'Mechanisms'],
+    },
+    {
+      id: getId(),
+      name: 'Smart Farming (IoT)',
+      description:
+        'Automated irrigation and environment monitoring system for agriculture using sensors and microcontrollers.',
+      tasks:
+        'Implemented sensor fusion, designed PCB, added cloud logging and control for field reliability',
+      url: '#',
+      img: 'https://images.unsplash.com/photo-1518770660439-4636190af475',
+      tags: ['IoT', 'Automation', 'Agriculture'],
+    },
+    {
+      id: getId(),
+      name: 'Home Automation through IoT',
+      description:
+        'Modular home automation system with device control, safety monitoring, and local failsafes.',
+      tasks:
+        'Developed firmware and control flows, optimized power usage, implemented device discovery and recovery',
+      url: '#',
+      img: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
+      tags: ['IoT', 'Embedded', 'Automation'],
     },
   ],
 };

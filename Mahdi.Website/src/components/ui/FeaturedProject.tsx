@@ -12,6 +12,7 @@ interface Props extends FeaturedProjectType, MotionProps {
 }
 
 const FeaturedProject = ({
+  id,
   img,
   name,
   url,

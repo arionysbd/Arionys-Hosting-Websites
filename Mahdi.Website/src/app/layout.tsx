@@ -1,6 +1,7 @@
 import { seoData } from '@/lib/content/portfolio';
 import ThemeProvider from '@/lib/hooks/use-theme';
 import fontVariables from '@/lib/utils/fonts';
+import Script from 'next/script';
 
 import Cursor from '@/components/ui/Cursor';
 
@@ -74,9 +75,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <head>
-        <script src="/scripts/no-flash.js" async />
+        <Script src="/scripts/no-flash.js" strategy="beforeInteractive" />
       </head>
       <body className={`text-text bg-bg ${fontVariables}`}>
         <Cursor className="hidden dark:lg:block" />

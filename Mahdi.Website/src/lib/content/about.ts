@@ -5,15 +5,17 @@ export const aboutSection: AboutSectionType = {
   // Paragraphs need to be changed from `/containers/About.tsx`
   // Because it wasn't possible to insert anchor tags like this
   list: {
-    title: 'Here are a few technologies and skills I work with:',
+    title: 'Core interests & tools:',
     items: [
-      'Microcontrollers',
-      'Robotics',
-      'Sensor Systems',
-      'Circuit Design',
-      'AI/ML',
-      'CAD Modeling',
+      'Robotics & Automation',
+      'Electronics',
+      'C/C++ coding',
+      'PCB design',
+      'Soldering',
+      'CAD & Simulation',
+      'IoT & Home Automation',
+      'Project Management',
     ],
   },
-  img: '/vatsal-singh.png', // Will need to be replaced with appropriate image
+  img: '/profile.jpeg',
 };

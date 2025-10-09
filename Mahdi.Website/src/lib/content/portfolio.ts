@@ -22,21 +22,22 @@ export const author = {
 };
 
 export const seoData = {
-  title: 'Mahdi Bin Ferdaus | Hardware Engineer & Developer',
+  title: 'Mahdi Bin Ferdaus | Robotics Enthusiast',
   description:
-    'Mahdi Bin Ferdaus is a hardware engineer and developer who specializes in building innovative solutions at the intersection of hardware and software.',
+    'Robotics enthusiast focused on automation, electronics, and IoT. Global Finalist at NASA Conrad Challenge 2024 and National Champion at RC National Science Fest 2023.',
   author: author.name,
   image:
-    'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
-  url: 'https://nadimshahriar.vercel.app/',
+    'https://images.unsplash.com/photo-1581092334700-7d89c0e8fa61',
+  url: 'http://localhost:3000/',
   keywords: [
-    'Nadim',
     'Mahdi Bin Ferdaus',
-    'Hardware Engineer',
-    'Developer',
+    'Robotics',
+    'Automation',
+    'Electronics',
+    'IoT',
+    'NASA Conrad Challenge',
+    'RC National Science Fest',
     'Bangladesh',
     'Portfolio',
-    'Nadim Portfolio',
-    'Mahdi Bin Ferdaus Portfolio',
   ],
 };

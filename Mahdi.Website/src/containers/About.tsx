@@ -8,9 +8,11 @@ import { AuthorImage, Link, ListItem, Wrapper } from '@/components';
 import { getSectionAnimation } from '@/styles/animations';
 
 import { useEffect, useState } from 'react';
+import profile from 'public/profile.jpeg';
 
 const About = () => {
   const { title, img, list } = aboutSection;
+  const imgSrc = img?.includes('profile') ? profile : img;
   // To avoid hydration error
   const [domLoaded, setDomLoaded] = useState(false);
 
@@ -24,16 +26,16 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            I was born in the quiet heart of Bangladesh, where the hum of village life and the whisper of monsoon rains shaped my earliest curiosities. My world began in Tangail, wandered through Natore, and was always tethered to the ancestral soil of Chapainawabganj and Rajshahi.
+            I'm a robotics enthusiast from Bangladesh working across robotics, automation, and electronics. I design systems that combine sensors, microcontrollers, and solid mechanical design to solve real-world problems.
           </p>
           <p>
-            What began as a child's wonder grew into an unyielding craft. I learned to make ideas breathe—whether in the form of a robot that thinks, a sensor that listens to the wind, or a code that can see patterns where humans cannot. My projects have carried me from local science fairs to international stages, from setbacks that taught me resilience to moments where the work spoke louder than any introduction.
+            Highlights include being a Conrad Innovator and Global Finalist at the NASA Conrad Challenge (2024), National Champion at the 6th RC National Science Fest (2023), and multiple regional and national awards in science and tech fairs.
           </p>
           <p>
-            I work at the meeting point of hardware and thought, where machines learn and the human hand still leaves its mark. My tools are not only soldering irons, microcontrollers, and CAD models, but also the long nights of iteration, the discipline of failure, and the belief that technology can be both precise and poetic.
+            I enjoy turning complex problems into robust builds—fast iterations, clean wiring, and dependable code. My focus is practical engineering: reliable circuits, clear logic, and hardware that works outside the lab.
           </p>
           <p>
-            I build not just to solve problems, but to ask new questions—of the world, and of myself.
+            When I'm not building, I'm teaching robotics, mentoring teams, and exploring how smart automation can improve everyday life.
           </p>
 
           {list && (
@@ -47,7 +49,7 @@ const About = () => {
             </>
           )}
         </div>
-        <AuthorImage src={img} alt={author.name} />
+        <AuthorImage src={imgSrc} alt={author.name} />
       </main>
     </Wrapper>
   ) : (

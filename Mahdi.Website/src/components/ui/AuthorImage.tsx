@@ -1,6 +1,6 @@
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
-type Props = { src: string; alt: string };
+type Props = { src: string | StaticImageData; alt: string };
 
 const AuthorImage = ({ src, alt }: Props) => {
   return (
