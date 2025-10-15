@@ -11,7 +11,7 @@ const products = [
     image: 'College Boy/RAJCPSC-College-Boy.jpg',
     details: {
       size: 'S, M, L, XL, XXL',
-      fabric: 'Breathable poly-cotton, 180 GSM',
+      fabric: 'Jackerd (Player Version)',
       contact: 'Call/WhatsApp: 01816-665948',
       gallery: [
         'College Boy/WhatsApp Image 2025-10-02 at 21.41.37 (1).jpeg',
@@ -28,8 +28,8 @@ const products = [
     price: '৳ 470',
     image: 'College Girl/RAJCPSC-College-Girls.jpg',
     details: {
-      size: 'S, M, L, XL',
-      fabric: 'Polyester blend, moisture-wicking',
+      size: 'S, M, L, XL, XXL',
+      fabric: 'Jackerd (Player Version)',
       contact: 'Call/WhatsApp: 01816-665948',
       gallery: [
         'College Girl/WhatsApp Image 2025-10-02 at 21.41.34.jpeg',
@@ -46,8 +46,8 @@ const products = [
     price: '৳ 470',
     image: 'School Boy/RAJCPSC-BOYS.jpg',
     details: {
-      size: 'One size (adjustable)',
-      fabric: 'Cotton twill',
+      size: 'S, M, L, XL, XXL',
+      fabric: 'Jackerd (Player Version)',
       contact: 'Call/WhatsApp: 01816-665948',
       gallery: [
         'School Boy/WhatsApp Image 2025-10-02 at 21.41.39 (2).jpeg',
@@ -64,8 +64,8 @@ const products = [
     price: '৳ 470',
     image: 'School Girl /RAJCPSC-Girls.jpg',
     details: {
-      size: '750ml',
-      fabric: 'Stainless steel (BPA-free)',
+      size: 'S, M, L, XL, XXL',
+      fabric: 'Jackerd (Player Version)',
       contact: 'Call/WhatsApp: 01816-665948',
       gallery: [
         'School Girl /WhatsApp Image 2025-10-02 at 21.41.41 (2).jpeg',
