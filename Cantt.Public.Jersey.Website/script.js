@@ -4,45 +4,9 @@ const AIRTABLE_URL = 'https://airtable.com/appWcozvqJFqW0zZ2/pagZomfKDRKmSYCdA/f
 // Define the four products
 const products = [
   {
-    id: 'jersey',
-    name: 'School Boys',
-    desc: 'Official tournament jersey in multiple sizes.',
-    price: '৳ 470',
-    image: 'College Boy/RAJCPSC-College-Boy.jpg',
-    details: {
-      size: 'S, M, L, XL, XXL',
-      fabric: 'Jackerd (Player Version)',
-      contact: 'Call/WhatsApp: 01816-665948',
-      gallery: [
-        'College Boy/WhatsApp Image 2025-10-02 at 21.41.37 (1).jpeg',
-        'College Boy/WhatsApp Image 2025-10-02 at 21.41.38 (1).jpeg',
-        'College Boy/WhatsApp Image 2025-10-02 at 21.41.39 (1).jpeg',
-        'College Boy/WhatsApp Image 2025-10-02 at 21.41.39.jpeg',
-      ],
-    },
-  },
-  {
-    id: 'tracksuit',
-    name: 'College Girls',
-    desc: 'Comfortable tracksuit for training and travel.',
-    price: '৳ 470',
-    image: 'College Girl/RAJCPSC-College-Girls.jpg',
-    details: {
-      size: 'S, M, L, XL, XXL',
-      fabric: 'Jackerd (Player Version)',
-      contact: 'Call/WhatsApp: 01816-665948',
-      gallery: [
-        'College Girl/WhatsApp Image 2025-10-02 at 21.41.34.jpeg',
-        'College Girl/WhatsApp Image 2025-10-02 at 21.41.35 (2).jpeg',
-        'College Girl/WhatsApp Image 2025-10-02 at 21.41.35.jpeg',
-        'College Girl/WhatsApp Image 2025-10-02 at 21.41.36.jpeg',
-      ],
-    },
-  },
-  {
     id: 'cap',
     name: 'College Boys',
-    desc: 'Classic cap with tournament branding.',
+    desc: 'Official Inter Cantt. tournament jersey in multiple sizes.',
     price: '৳ 470',
     image: 'School Boy/RAJCPSC-BOYS.jpg',
     details: {
@@ -58,9 +22,45 @@ const products = [
     },
   },
   {
+    id: 'tracksuit',
+    name: 'College Girls',
+    desc: 'Official Inter Cantt. tournament jersey in multiple sizes.',
+    price: '৳ 470',
+    image: 'College Girl/RAJCPSC-College-Girls.jpg',
+    details: {
+      size: 'S, M, L, XL, XXL',
+      fabric: 'Jackerd (Player Version)',
+      contact: 'Call/WhatsApp: 01816-665948',
+      gallery: [
+        'College Girl/WhatsApp Image 2025-10-02 at 21.41.34.jpeg',
+        'College Girl/WhatsApp Image 2025-10-02 at 21.41.35 (2).jpeg',
+        'College Girl/WhatsApp Image 2025-10-02 at 21.41.35.jpeg',
+        'College Girl/WhatsApp Image 2025-10-02 at 21.41.36.jpeg',
+      ],
+    },
+  },
+  {
+    id: 'jersey',
+    name: 'School Boys',
+    desc: 'Official Inter Cantt. tournament jersey in multiple sizes.',
+    price: '৳ 470',
+    image: 'College Boy/RAJCPSC-College-Boy.jpg',
+    details: {
+      size: 'S, M, L, XL, XXL',
+      fabric: 'Jackerd (Player Version)',
+      contact: 'Call/WhatsApp: 01816-665948',
+      gallery: [
+        'College Boy/WhatsApp Image 2025-10-02 at 21.41.37 (1).jpeg',
+        'College Boy/WhatsApp Image 2025-10-02 at 21.41.38 (1).jpeg',
+        'College Boy/WhatsApp Image 2025-10-02 at 21.41.39 (1).jpeg',
+        'College Boy/WhatsApp Image 2025-10-02 at 21.41.39.jpeg',
+      ],
+    },
+  },
+  {
     id: 'bottle',
     name: 'School Girls',
-    desc: 'Insulated bottle to keep drinks cool.',
+   desc: 'Official Inter Cantt. tournament jersey in multiple sizes.',
     price: '৳ 470',
     image: 'School Girl /RAJCPSC-Girls.jpg',
     details: {
