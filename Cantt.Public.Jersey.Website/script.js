@@ -5,7 +5,7 @@ const AIRTABLE_URL = 'https://airtable.com/appWcozvqJFqW0zZ2/pagZomfKDRKmSYCdA/f
 const products = [
   {
     id: 'jersey',
-    name: 'College Boys',
+    name: 'School Boys',
     desc: 'Official tournament jersey in multiple sizes.',
     price: '৳ 470',
     image: 'College Boy/RAJCPSC-College-Boy.jpg',
@@ -41,7 +41,7 @@ const products = [
   },
   {
     id: 'cap',
-    name: 'School Boys',
+    name: 'College Boys',
     desc: 'Classic cap with tournament branding.',
     price: '৳ 470',
     image: 'School Boy/RAJCPSC-BOYS.jpg',
